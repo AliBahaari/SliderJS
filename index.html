@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>SliderJS</title>
+  <style>
+  
+  @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('Fonts/EOT/IRANSansWeb.eot');
+    src: url('Fonts/EOT/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+      url('Fonts/WOFF2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+      url('Fonts/WOFF/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url('Fonts/TTF/IRANSansWeb.ttf') format('truetype');
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    font-family: IRANSans;
+  }
+
+  .SliderJS div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .SliderJS div p {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  #Gray {
+    background-color: #DFE6E9;
+  }
+
+  #Blue {
+    background-color: #81ECEC;
+  }
+
+  #Green {
+    background-color: #55EFC4;
+  } 
+
+  #Yellow {
+    background-color: #FDCB6E;
+  }
+
+  a {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    top: 100%;
+    left: 0;
+  }
+  
+  </style>
+</head>
+<body>
+
+  <a href="https://GitHub.com/AliBahaari/SliderJS">Check On GitHub</a>
+  
+  <div class="SliderJS">
+    <div id="Blue">
+      <p>Blue</p>
+    </div>
+    <div id="Gray">
+      <p>Gray</p>
+    </div>
+    <div id="Green">
+      <p>Green</p>
+    </div>
+    <div id="Yellow">
+      <p>Yellow</p>
+    </div>
+  </div>
+
+  <script src="Slider - 1.0.0.min.js"></script>
+  <script>
+
+  Slider({
+    buttonWidth: '15px',
+    buttonHeight: '15px',
+    backGround: '#000',
+    borderRadius: '100%',
+    borderWidth: '2px',
+    borderStyle: 'solid',
+    borderColor: '#EEE'
+  });
+
+  </script>
+</body>
+</html>
