@@ -24,7 +24,7 @@ Then, You should initialize properties, Just copy the code below and paste it af
     buttonWidth: '15px',    // Buttons width
     buttonHeight: '15px',    // Buttons height
     backGround: '#000',    // Buttons background
-    borderRadius: '100%',    // How much the Corners of the button should be round?
+    borderRadius: '100%',    // How much the Corners of the button should be round ?
     borderWidth: '2px',    // Border width
     borderStyle: 'solid',    // Border style
     borderColor: '#EEE'    // Border color
