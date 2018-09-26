@@ -8,6 +8,15 @@ Just link SliderJS to your project, For example :
 ```
 
 ## Initializing
+First, Create `div` with `.SliderJS` class and in this tag, Put as many as `div` you want :
+```
+<div class="SliderJS">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+```
+
 Then, You should initialize properties, Just copy the code below and paste it after the code above.
 ```
 <script>
