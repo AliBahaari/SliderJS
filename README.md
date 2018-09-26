@@ -1,5 +1,5 @@
 # SliderJS
-**SliderJS** will make your website to behave like presentation. SliderJS just uses ***JavaScript*** and nothing else.
+**SliderJS** will make your website to behave like a presentation. SliderJS just uses ***JavaScript*** and nothing else.
 
 ## Add Project
 Just link SliderJS to your project, For example :
