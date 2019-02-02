@@ -1,6 +1,6 @@
 # SliderJS
 
-***SliderJS*** will create a responsive presentation websites. SliderJS just uses **JavaScript**.
+***SliderJS*** will creates responsive presentation websites. SliderJS just uses **JavaScript**.
 
 ## Add Project
 
