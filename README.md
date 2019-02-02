@@ -1,14 +1,17 @@
 # SliderJS
-**SliderJS** will make your website to behave like a responsive presentation. SliderJS just uses ***JavaScript*** and nothing else.
+
+***SliderJS*** will create a responsive presentation websites. SliderJS just uses ***JavaScript*** and nothing else.
 
 ## Add Project
-Just link SliderJS to your project, For example :
+
+Just link SliderJS to your project :
 ```
 <script src="Slider - 1.0.0.min.js"></script>
 ```
 
 ## Initializing
-First, Create `div` with `.SliderJS` class and in this tag, Put as many as `div` you want :
+
+First, create a `div` with `.SliderJS` class and as many as `div` you want inside it :
 ```
 <div class="SliderJS">
   <div></div>
@@ -17,7 +20,7 @@ First, Create `div` with `.SliderJS` class and in this tag, Put as many as `div`
 </div>
 ```
 
-Then, You should initialize properties, Just copy the code below and paste it after the code above.
+Then, you should initialize properties; just copy the code below and paste it after the code above.
 ```
 <script>
   Slider({
@@ -31,7 +34,8 @@ Then, You should initialize properties, Just copy the code below and paste it af
   });
 </script>
 ```
-Note : All the properties above should be filled; All are ***String***.
+*Note :* All the properties above should be filled; all of them are ***String***s.
 
 ## Minified
-In minified version that actually is being used for production, It uses **Babel** for SliderJS to feel free for using in old browsers.
+
+In the minified version, it uses **Babel** to feel free for using in old version browsers.
