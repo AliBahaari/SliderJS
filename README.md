@@ -34,7 +34,7 @@ Then, you should initialize properties; just copy the code below and paste it af
   });
 </script>
 ```
-*Note :* All the properties above should be filled; all of them are ***String***s.
+*Note :* All the properties above should be filled; all of them are ***String***.
 
 ## Minified
 
