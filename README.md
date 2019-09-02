@@ -40,4 +40,4 @@ Then, you should initialize properties; just copy the code below and paste it af
 
 ## Minified
 
-In the minified version, it uses **Babel** to feel free for using in old version browsers.
+In the minified version, it uses Babel to feel free for using in old version browsers.
