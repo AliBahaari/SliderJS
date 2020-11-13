@@ -1,7 +1,5 @@
 # SliderJS
 
-![JavaScript Badge](https://alibahaari.github.io/Badge/JavaScript.png)
-
 ***SliderJS*** will creates responsive presentation websites. SliderJS just uses **JavaScript**.
 
 ## Add Project
