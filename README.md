@@ -26,7 +26,7 @@ Then, you should initialize properties; just copy the code below and paste it af
   Slider({
     buttonWidth: '15px',    // Buttons `width`
     buttonHeight: '15px',    // Buttons `height`
-    backgroundColor: '#000',    // Buttons `background-color`
+    backGround: '#000',    // Buttons `background-color`
     borderRadius: '100%',    // Buttons `border-radius`
     borderWidth: '2px',    // Buttons `border-width`
     borderStyle: 'solid',    // Buttons `border-style`
