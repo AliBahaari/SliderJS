@@ -24,13 +24,13 @@ Then, you should initialize properties; just copy the code below and paste it af
 ```
 <script>
   Slider({
-    buttonWidth: '15px',    // Buttons width
-    buttonHeight: '15px',    // Buttons height
-    backGround: '#000',    // Buttons background
-    borderRadius: '100%',    // How much the Corners of the button should be round ?
-    borderWidth: '2px',    // Border width
-    borderStyle: 'solid',    // Border style
-    borderColor: '#EEE'    // Border color
+    buttonWidth: '15px',    // Buttons `width`
+    buttonHeight: '15px',    // Buttons `height`
+    backgroundColor: '#000',    // Buttons `background-color`
+    borderRadius: '100%',    // Buttons `border-radius`
+    borderWidth: '2px',    // Buttons `border-width`
+    borderStyle: 'solid',    // Buttons `border-style`
+    borderColor: '#EEE'    // Buttons `border-color`
   });
 </script>
 ```
