@@ -24,13 +24,13 @@ Then, you should initialize properties; just copy the code below and paste it af
 ```
 <script>
   Slider({
-    buttonWidth: '15px',    // Buttons `width`
-    buttonHeight: '15px',    // Buttons `height`
-    backGround: '#000',    // Buttons `background-color`
-    borderRadius: '100%',    // Buttons `border-radius`
-    borderWidth: '2px',    // Buttons `border-width`
-    borderStyle: 'solid',    // Buttons `border-style`
-    borderColor: '#EEE'    // Buttons `border-color`
+    buttonWidth: '15px',    // Navigation button `width`
+    buttonHeight: '15px',    // Navigation button `height`
+    backGround: '#000',    // Navigation button `background-color`
+    borderRadius: '100%',    // Navigation button `border-radius`
+    borderWidth: '2px',    // Navigation button `border-width`
+    borderStyle: 'solid',    // Navigation button `border-style`
+    borderColor: '#EEE'    // Navigation button `border-color`
   });
 </script>
 ```
